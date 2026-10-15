@@ -54,15 +54,11 @@ This project bridges the gap between static climate reports and dynamic, user-dr
 │   ├── wikipedia_co2_cached.csv   # Scraped and cleaned Wikipedia dataset
 │   └── 1milyonyol.bas.co2_mik.ton.csv
 ├── notebooks/                     # Exploratory Data Analysis & Modeling
-│   ├── countriesCO2.ipynb         # Wikipedia scraping & initial visualization
-│   ├── co2 yeni veriseti son.ipynb # OWID dataset cleaning & preprocessing
-│   ├── lütfen son olsun 2 .ipynb  # Prophet time-series modeling & prototype
-│   ├── co2.ipynb                  # Exploratory data analysis
-│   └── izmir co2 .ipynb           # Regional analysis & experiments
-└── raporlar_ve_gorseller/         # Academic Deliverables & Charts
+│   └── co2_analiz_ve_tahmin.ipynb # Unified end-to-end data pipeline, scraping & Prophet forecasting
+└── raporlar_ve_gorseller/         # Academic Deliverables, Diagrams & Plots
     ├── Akademik_Makale_Raporu_CO2.docx  # Full-length academic publication paper draft
     ├── Vize_Makalesi_CO2.pdf            # Research term paper
-    └── grafikler/                 # 24 publication-ready high-resolution plots
+    └── grafikler/                 # Clean, publication-ready diagrams, charts & methodology figures
 ```
 
 ---
