@@ -38,6 +38,3 @@ ENV/
 # Streamlit config / cache
 .streamlit/
 
-# Eski deneme not defterleri (yerelde saklanır, GitHub'a gönderilmez)
-notebooks/eski_denemeler/
-

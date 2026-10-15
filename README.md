@@ -54,7 +54,12 @@ This project bridges the gap between static climate reports and dynamic, user-dr
 │   ├── wikipedia_co2_cached.csv   # Scraped and cleaned Wikipedia dataset
 │   └── 1milyonyol.bas.co2_mik.ton.csv
 ├── notebooks/                     # Exploratory Data Analysis & Modeling
-│   └── co2_analiz_ve_tahmin.ipynb # Unified end-to-end data pipeline, scraping & Prophet forecasting
+│   ├── co2_analiz_ve_tahmin.ipynb # Unified end-to-end data pipeline, scraping & Prophet forecasting
+│   └── arastirma_ve_deneyler/     # Experimental & Research Notebooks
+│       ├── 01_izmir_yerel_ulasim_emisyon_analizi.ipynb
+│       ├── 02_wikipedia_kisi_basi_emisyon_kazima.ipynb
+│       ├── 03_world_population_review_kazima_ve_eda.ipynb
+│       └── 04_prototip_model_ve_streamlit_denemeleri.ipynb
 └── raporlar_ve_gorseller/         # Academic Deliverables, Diagrams & Plots
     ├── Akademik_Makale_Raporu_CO2.docx  # Full-length academic publication paper draft
     ├── Vize_Makalesi_CO2.pdf            # Research term paper
